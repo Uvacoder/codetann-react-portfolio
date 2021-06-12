@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,SAAU,CACV,QAAS,CACT,qBAAsB,CACtB,mBAAoB,CACpB,sBACF","file":"main.1f70080b.chunk.css","sourcesContent":["* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n  font-family: \"Inter\";\n  scroll-behavior: smooth;\n}\n"]}
