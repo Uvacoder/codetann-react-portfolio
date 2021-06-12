@@ -103,7 +103,7 @@ const buttons = {
 
 const hstack = {
   icons: {
-    m: "6rem ",
+    m: "12rem ",
     w: "full",
   },
   buttons: {
