@@ -21,7 +21,14 @@ function App() {
 
 const flex = {
   w: "full",
-  p: { base: "2rem", sm: "2rem", md: "2rem", lg: "2rem", xl: "2rem 10rem" },
+  p: {
+    base: "2rem",
+    sm: "2rem",
+    md: "2rem",
+    lg: "2rem 5rem",
+    xl: "2rem 10rem",
+    "2xl": "2rem 15rem",
+  },
   flexDirection: "column",
 };
 

@@ -44,18 +44,6 @@ export default function Landing() {
         </Button>
       </HStack>
       {/* --- Social Links --- */}
-      <HStack {...hstack.icons}>
-        <Divider />
-        {ICONS.links.map((icon, i) => (
-          <Button
-            {...buttons.icon}
-            onClick={() => handleLink(icon.link)}
-            key={i}
-            className={`fab fa-${icon.name}`}
-          ></Button>
-        ))}
-        <Divider />
-      </HStack>
     </Flex>
   );
 }
@@ -64,13 +52,14 @@ const flex = {
   flexDirection: "column",
   alignItems: "center",
   w: "full",
+  m: { base: "0 0 10rem 0", lg: "0 0 15rem 0" },
 };
 
 const heading = {
   m: {
-    base: "6rem 0 6rem 0 ",
-    md: "8rem 0 10rem 0",
-    lg: "10rem 0 6rem 0",
+    base: "8rem 0 4rem 0 ",
+    md: "8rem 0 6rem 0",
+    lg: "13rem 0 6rem 0",
   },
   fontSize: { base: "28px", md: "32px" },
   textAlign: { base: "left", sm: "center", md: "center", lg: "center" },
@@ -91,13 +80,6 @@ const buttons = {
     fontSize: "sm",
     size: "lg",
     _hover: { opacity: 0.5 },
-  },
-  icon: {
-    fontSize: "22px",
-    fontWeight: "100",
-    bg: "none",
-    color: "brand.100",
-    _hover: { color: "brand.200" },
   },
 };
 
