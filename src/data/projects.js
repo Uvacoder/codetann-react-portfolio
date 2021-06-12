@@ -18,8 +18,8 @@ export const PROJECTS = {
       title: "Qwiz",
       desc: "A web application made for trivia. Allows users to pick a category, difficulty, and nickname. Saves the users score and nickname to firebase.",
       tags: ["React", "Styled-Components", "Firebase", "React-Router"],
-      github: "https://github.com/codetann/pixels-portfolio",
-      app: "https://6035474117e47b09cf8fc69b--cranky-noether-5d469c.netlify.app/",
+      github: "https://github.com/codetann/QWIZ",
+      app: "https://infallible-hypatia-374001.netlify.app/",
     },
     {
       title: "Shortly",
