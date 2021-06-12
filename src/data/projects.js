@@ -8,11 +8,11 @@ export const PROJECTS = {
       app: "https://6035474117e47b09cf8fc69b--cranky-noether-5d469c.netlify.app/",
     },
     {
-      title: "Messages",
-      desc: "A simple chatroom application, which provides users with the ability to sign in with their google account. Users messages are stored on firebase.",
-      tags: ["React", "React Bootstrap", "Firebase", "Firestore", "Netlify"],
-      github: "https://github.com/codetann/firebase-messages",
-      app: "https://upbeat-poincare-0a234e.netlify.app/",
+      title: "Join A Room",
+      desc: "A simple chatroom application, which provides users with the ability to choose a username, room name, and connect with their friends.",
+      tags: ["React", "Express", "Socket.io", "NodeJs", "Heroku", "Sass"],
+      github: "https://github.com/codetann/join-a-room",
+      app: "https://join-a-room-app.herokuapp.com/",
     },
     {
       title: "Qwiz",
