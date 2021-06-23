@@ -16,7 +16,7 @@ export default function About() {
 
 const flex = {
   w: "full",
-  m: "0 0 6rem 0",
+  m: "0 0 4rem 0",
   flexDirection: "column",
 };
 
